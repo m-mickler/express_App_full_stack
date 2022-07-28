@@ -1,0 +1,20 @@
+INSERT INTO people (name, age) VALUES ('Matthew', 27);
+INSERT INTO people (name, age) VALUES ('Michael', 27);
+
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1991, 'Chevrolet', 'Cheyenne', 'baby blue', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1992, 'Ford', 'F150', 'black', 2);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1993, 'GMC', 'Sonoma', 'dark green', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1987, 'Pontiac', 'Firebird', 'blue', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1995, 'Chevrolet', 'Silverado', 'red', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (2004, 'Pontiac', 'Grand Prix', 'maroon', 2);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1997, 'Pontiac', 'Grand Prix GTP', 'dark green', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (2002, 'Dodge', 'Ram 1500', 'black', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (2003, 'Pontiac', 'Grand Prix GT', 'Pewter', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1998, 'Chevrolet', 'Camaro Z28', 'black', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (2010, 'Dodge', 'Ram 2500', 'red', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (2004, 'Subaru', 'Impreza WRX', 'blue', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1993, 'Ford', 'Explorer', 'red', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (2004, 'Chevrolet', 'Silverado 2500HD', 'blue', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1988, 'Chevrolet', 'S10 Blazer', 'grey', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1969, 'Chevrolet', 'C10', 'yellow', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (2016, 'Volkswagen', 'Golf R', 'white', 1);
