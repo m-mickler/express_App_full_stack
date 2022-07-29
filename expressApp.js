@@ -6,9 +6,13 @@ dotenv.config();
 
 const pool = new pg.Pool({
     connectionString: process.env.DATABASE_URL,
-    ssl: {
-        rejectUnauthorized: false
-    }
+    ...(process.env.NODE_ENV === "production"
+        ? {
+            ssl: {
+                rejectUnauthorized: false
+            }
+        }
+        : {}),
 });
 
 const PORT = process.env.PORT || 3000;

@@ -17,4 +17,5 @@ INSERT INTO cars (year, make, model, color, person_id) VALUES (1993, 'Ford', 'Ex
 INSERT INTO cars (year, make, model, color, person_id) VALUES (2004, 'Chevrolet', 'Silverado 2500HD', 'blue', 1);
 INSERT INTO cars (year, make, model, color, person_id) VALUES (1988, 'Chevrolet', 'S10 Blazer', 'grey', 1);
 INSERT INTO cars (year, make, model, color, person_id) VALUES (1969, 'Chevrolet', 'C10', 'yellow', 1);
+INSERT INTO cars (year, make, model, color, person_id) VALUES (1991, 'Subaru', 'XT6', 'orange', 1);
 INSERT INTO cars (year, make, model, color, person_id) VALUES (2016, 'Volkswagen', 'Golf R', 'white', 1);
