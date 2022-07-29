@@ -1,9 +1,14 @@
 import pg from "pg";
 import express from "express";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 const pool = new pg.Pool({
     database: "carlist",
 });
+
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(express.static("static"));
@@ -152,6 +157,6 @@ app.use(function (err, req, res, next) {
     res.status(500).send('Something broke!');
 });
 
-app.listen(3000, () => {
+app.listen(`${PORT}`, () => {
     console.log('listening on port 3000')
 });
