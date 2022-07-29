@@ -5,7 +5,10 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const pool = new pg.Pool({
-    database: "carlist",
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+        rejectUnauthorized: false
+    }
 });
 
 const PORT = process.env.PORT || 3000;
@@ -158,5 +161,5 @@ app.use(function (err, req, res, next) {
 });
 
 app.listen(`${PORT}`, () => {
-    console.log('listening on port 3000')
+    console.log(`listening on port ${PORT}`)
 });
